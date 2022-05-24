@@ -11,7 +11,7 @@ app.use(express.json());
 // database connection setup
 mongoose.connect(DB_URL, async ()=>{
     console.log(`Application is connected to database: ${DB_URL}`);
-    
+    /*
     // create movies here
     const movie1 = await Movie.create({
         name: "Puspa",
@@ -63,6 +63,7 @@ mongoose.connect(DB_URL, async ()=>{
         releaseDate: "06-25-2022"
     })
     console.log(movie5);
+    */
 })
 
 
