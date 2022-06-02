@@ -1,0 +1,48 @@
+1. We have understood the problem statement of MBA
+
+
+
+
+Movie resource
+
+APIs --
+
+
+Creating a movie -
+POST /mba/api/v1/movies
+
+Get all the movies
+GET /mba/api/v1/movies
+
+Get movie based on the id
+GET /mba/api/v1/movies/{id}
+
+Update the movie
+PUT /mba/api/v1/movies/{id}
+
+Delete a movie
+DELETE /mba/api/v1/movies/{id}
+
+
+
+Task1  :  
+
+
+Play with Models : 
+
+1. Take this code as base. Improve the TODOs
+and create few movies at the server boot time
+
+
+
+
+{
+   
+   movies : {
+        insert : [ 1,2,3,4],
+        remove : [5,6,7]
+   }
+
+}
+
+
